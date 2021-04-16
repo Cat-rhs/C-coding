@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{c7004a3a-b641-47ce-8799-7abc892302d2}</ProjectGuid>
+    <RootNamespace>Cleanup</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Cleanup.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\bag.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\battery.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\bedroom1.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\bedroom1key.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\bedroom2.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\book.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\box.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\cleanupend.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\cleanupexplain.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\cleanupstart.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\door-left-closed.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\door-left-open.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\door-right-closed.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\door-right-open.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\entrance.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\hallway1.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\hallway2.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\keypad.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\kitchen.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\left.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\livingroom.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\phone.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\plant.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\right.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\secretroom.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\up.png" />
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\wallet.png" />
+    <Image Include="..\..\Personal Assignment\Personal Assignment\cleanupmain.png" />
+    <Image Include="bedroom1Quiz.png" />
+    <Image Include="bedroom2Quiz.png" />
+    <Image Include="charge.png" />
+    <Image Include="clearscreen.png" />
+    <Image Include="desktopscreen.png" />
+    <Image Include="explain.png" />
+    <Image Include="explainbutton.png" />
+    <Image Include="fullbag.png" />
+    <Image Include="warning.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

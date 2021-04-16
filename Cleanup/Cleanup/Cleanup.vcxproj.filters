@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Cleanup.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\door-right-open.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\box.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\cleanupend.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\cleanupstart.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\door-left-closed.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\door-left-open.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\door-right-closed.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\keypad.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\kitchen.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\secretroom.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\livingroom.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\bedroom1.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\bedroom1key.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\bedroom2.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\right.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\left.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\up.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\entrance.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\hallway2.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\hallway1.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\plant.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\Personal Assignment\Personal Assignment\cleanupmain.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\cleanupexplain.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="clearscreen.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="warning.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="bedroom1Quiz.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="bedroom2Quiz.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="desktopscreen.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\battery.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\book.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\phone.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\wallet.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Desktop\학교과제\기컴프\비주얼스튜디오\4. 개인과제 게임제작\cleanup\bag.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="charge.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="fullbag.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="explain.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+    <Image Include="explainbutton.png">
+      <Filter>소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
