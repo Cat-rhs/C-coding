@@ -1,4 +1,4 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+#define _CRT_SECURE_NO_WARNINGS
 #include <bangtal.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -222,7 +222,7 @@ void mouseCallback(ObjectID object, int x, int y, MouseAction action) {
 				br1closed = false;
 			}
 			else {
-				showMessage("거실 책장에서 힌트를 찾아보자!!");
+				showMessage("거실 책장에서 방 문 열쇠에 대한 힌트를 찾아보자!! (느낌표 말고도 무언가 수상한 것이 있다)");
 			}
 		}
 		else {
@@ -337,7 +337,7 @@ void objectCallback(ObjectID object, EventID event) {
 			hideObject(box);
 			hideObject(keypad1);
 			showObject(bedroom1key);
-			showMessage("잠금 해제!!");
+			showMessage("잠금 해제!! 방1 문의 열쇠를 찾았다..!!!");
 		}
 	}
 	//키패드2를 풀면 방2문이 열린다
